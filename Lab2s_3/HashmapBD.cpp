@@ -9,6 +9,7 @@ enum Gender {
 	Female
 };
 
+
 struct Data {
 	string name = ""; //key
 	int age;  //data
