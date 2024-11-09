@@ -50,11 +50,11 @@ istream& operator >>(istream& in, List& l) {
 int main() 
 {
 	setlocale(LC_ALL, "rus");
-	Point c1(8, 2);
+	Point c1(7, 2);
 	Point c2(10, 1);
 	Point c3;
 	Point c4(100, 200);
-	Circle circle1(c1, 3);
+	Circle circle1(c1, 8);
 	Circle circle2(c2, 5);
 	Circle circle3(c3, 0);
 	Circle circle4(c4, 1);
