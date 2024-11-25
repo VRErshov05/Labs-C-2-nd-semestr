@@ -6,6 +6,11 @@
 #include <intrin.h> // Для __nop
 #include <cstring>
 #include <vector>
+#include <utility>
+#include <cstdlib> // Для использования exit()
+#include <algorithm>
+#include <list>
 using namespace std;	 // Обеспечивает видимость имен из STL
+
 
 

@@ -18,21 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="MyString.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MyStack.h" />
-    <ClInclude Include="MyString.h" />
-    <ClInclude Include="MyVector.h" />
-    <ClInclude Include="stdafx.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bbdf3bd0-3232-41c3-a13d-aadc343c9f55}</ProjectGuid>
-    <RootNamespace>Lab3s3</RootNamespace>
+    <ProjectGuid>{5d4534f4-d235-43a0-b940-b9ecfc1298f8}</ProjectGuid>
+    <RootNamespace>Lab3s4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -136,6 +126,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

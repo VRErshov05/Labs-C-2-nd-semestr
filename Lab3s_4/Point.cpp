@@ -4,16 +4,16 @@ using namespace std;
 
 class Point {
 public:
-	Point(double x = 0, double y = 0) : x(x), y(y) {}
+	Point(int x = 0, int y = 0) : x(x), y(y) {}
 
 
-	double Getx() const{ 
+	double Getx() { 
 		return x;
 	}
 	void Setx(int x) { 
 		this->x = x;
 	}
-	double Gety() const{
+	double Gety() {
 		return y;
 	}
 	void Sety(int y) {
@@ -23,11 +23,7 @@ public:
 		cout << "x = " << x << "\ty = " << y << endl;
 	}
 
-	// Перегрузка оператора << для вывода объекта Point
-	friend ostream& operator<<(ostream& os, const Point& p) {
-		os << "Point(x=" << p.Getx() << ", y=" << p.Gety() << ")";
-		return os;
-	}
+
 
 	//перегрузка операторов +, +=, ++i, i++
 	Point operator +(const Point& other) {
@@ -86,8 +82,6 @@ public:
 		this->y++;
 		return tmp;
 	}
-
-
 	
 private:
 	double x;
